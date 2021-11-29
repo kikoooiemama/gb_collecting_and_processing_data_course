@@ -131,6 +131,7 @@ while True:
             break
     else:
         print(f"Остановка скрапинга на странице: {n_page}; Статус код: {response.status_code}")
+        break
 
 # Вывести все вакансии с ЗП > 120000
 find_salaries_gt(vacancies_hh, 120000)
